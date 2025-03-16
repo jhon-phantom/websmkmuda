@@ -134,7 +134,10 @@ while ($row = mysqli_fetch_assoc($result)) {
 
           <div class="col-lg-6">
             <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="Public/Img/coba.png" alt="Hero Image" class="img-fluid">
+            <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="Public/Img/bagian1.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                
+              </div>
 
               <!-- <div class="customers-badge">
                 <div class="customer-avatars">
@@ -158,8 +161,8 @@ while ($row = mysqli_fetch_assoc($result)) {
                 <i class="bi bi-trophy"></i>
               </div>
               <div class="stat-content">
-                <h4>5x Tahfizul Qur'an</h4>
-                <p class="mb-0">Lomba Menghafal</p>
+                <h4>5x Juara Tahfizul Qur'an</h4>
+                <p class="mb-0">Lomba Menghafal Al-Qur'an tingkat SMK</p>
               </div>
             </div>
           </div>
@@ -170,7 +173,7 @@ while ($row = mysqli_fetch_assoc($result)) {
               </div>
               <div class="stat-content">
                 <h4>350 Karyawan dan Siswa</h4>
-                <p class="mb-0">Memiliki Guru yang kompeten</p>
+                <p class="mb-0">Memiliki Guru yang kompeten dibidangnya</p>
               </div>
             </div>
           </div>
@@ -181,7 +184,7 @@ while ($row = mysqli_fetch_assoc($result)) {
               </div>
               <div class="stat-content">
                 <h4>1x Pusat Keunggulan</h4>
-                <p class="mb-0">Menjadi Sekolah Pusat Keunggulan</p>
+                <p class="mb-0">Menjadi salah satu Sekolah Pusat Keunggulan di kabupaten Jember</p>
               </div>
             </div>
           </div>
@@ -191,7 +194,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                 <i class="bi bi-award"></i>
               </div>
               <div class="stat-content">
-                <h4>6x Lomba Silat</h4>
+                <h4>6x Juara Lomba Silat</h4>
                 <p class="mb-0"> Juara Lomba Pencak Silat</p>
               </div>
             </div>
@@ -212,9 +215,9 @@ while ($row = mysqli_fetch_assoc($result)) {
           <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
             <span class="about-meta">Tentang SMK Muda</span>
             <h2 class="about-title">SMK Muhammadiyah 02 Paleran</h2>
-            <p class="about-description">SMK Muhammadiyah 02 Paleran adalah sekolah yang sangat mengesankan
-              dan mengedepankan akhlak dan budi pekerti yang luhur. Oleh karena itu, SMK Muhammadiyah 02 Paleran Menjadi SMK yang favorit bagi Kaum Muhammadiyah tersebut.</p>
-
+            <p class="about-description">SMK Muhammadiyah 02 Paleran, didirikan pada tahun 2009, terus berkembang untuk menciptakan siswa-siswi yang berkualitas dan berakhlak mulia.
+      SMK Muhammadiyah menyediakan fasilitas bagi siswa yang ingin bekerja baik di dalam negeri maupun di luar negeri. Kami telah menjalin kerjasama dengan berbagai perusahaan terkemuka seperti Maspion IT, Transmart Jember,PT.Indobismar, Estoh Software Development, serta perusahaan lainnya. Selain itu, SMK Muhammadiyah juga bekerjasama Nanoedu sebagai pihak ketiga yang telah tersertifikasi oleh kementrian pendidikan untuk memberikan
+      layanan kerja diluar negeri bagi Siswa/siswi SMK sederajat, dengan adanya kerjasama ini memberikan peluang besar bagi siswa-siswi yang ingin berkarir di luar negeri.
             <!-- <div class="row feature-list-wrapper">
               <div class="col-md-6">
                 <ul class="feature-list">
@@ -239,7 +242,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                     <img src="Public/Img/gambar3.png" alt="CEO Profile" class="profile-image">
                     <div>
                       <h4 class="profile-name">Aguk Fatria Setiyawan</h4>
-                      <p class="profile-position">Kepala Sekolah</p>
+                      <p class="profile-position">KepSek SMK Muhammadiyah 02 Paleran</p>
                     </div>
                   </div>
                 </div>
@@ -247,7 +250,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                   <div class="contact-info d-flex align-items-center gap-2">
                     <i class="bi bi-telephone-fill"></i>
                     <div>
-                      <p class="contact-label">Hubungi</p>
+                      <p class="contact-label">Contact</p>
                       <p class="contact-number">+62 8241 3254 5756</p>
                     </div>
                   </div>
@@ -263,7 +266,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                 <img src="Public/Img/gambar3.png" alt="Team Discussion" class="img-fluid small-image rounded-4">
               </div>
               <div class="experience-badge floating">
-                <h3>16+ <span>Years</span></h3>
+                <h3>16+ <span>Tahun</span></h3>
                 <p>Mendidik Generasi Bangsa</p>
               </div>
             </div>
@@ -327,7 +330,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
+                <img src="Public/Img/rpl.webp" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
